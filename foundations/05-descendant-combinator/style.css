@@ -1,0 +1,15 @@
+/*Color tokens from USWDS
+https://designsystem.digital.gov/design-tokens/color/system-tokens/
+*/
+
+:root {
+  --yellow-10v: #fee685;
+  --red-80v: #5c1111;
+}
+
+.container .text {
+  background-color: var(--yellow-10v);
+  color: var(--red-80v);
+  font-size: 20px;
+  text-align: center;
+}

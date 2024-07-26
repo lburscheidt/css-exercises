@@ -1,6 +1,9 @@
 /*Color tokens from USWDS
 https://designsystem.digital.gov/design-tokens/color/system-tokens/
 */ 
+:root{
+    --yellow-50v: #947100;
+}
 
 .black-btn {
     background-color: black;
@@ -8,7 +11,7 @@ https://designsystem.digital.gov/design-tokens/color/system-tokens/
 }
 
 .yellow-btn {
-   background-color: #947100;
+   background-color: var(--yellow-50v);
 }
 
 .black-btn, .yellow-btn {
