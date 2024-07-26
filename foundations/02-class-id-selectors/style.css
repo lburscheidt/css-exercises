@@ -1,0 +1,23 @@
+/*Color values taken from USWDS color tokens scheme
+https://designsystem.digital.gov/design-tokens/color/system-tokens
+*/
+
+.pink {
+    background-color: #c84281;
+    font-family: Verdana, 'DejaVuSans', sans-serif;
+}
+
+#blue{
+    color: #2378c3;
+    font-size: 36px;
+}
+
+.cooler{
+    font-size: 24px;
+}
+
+#lightgreen{
+    background-color: #c5ee93;
+    font-size: 24px;
+    font-weight: bold;
+}
