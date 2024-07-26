@@ -1,0 +1,18 @@
+/*Color tokens from USWDS
+https://designsystem.digital.gov/design-tokens/color/system-tokens/
+*/ 
+
+.black-btn {
+    background-color: black;
+    color: white;
+}
+
+.yellow-btn {
+   background-color: #947100;
+}
+
+.black-btn, .yellow-btn {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
