@@ -8,3 +8,7 @@ button {
   color: white;
 }
 
+.yellow-btn {
+  background-color: yellow;
+  color: black;
+}
