@@ -1,9 +1,14 @@
-.header  {
-display: flex;
+.header {
+  display: flex;
   font-family: monospace;
   background: papayawhip;
+  justify-content: center;
+  padding: 16px;
 }
 
+.left-links {
+  display: flex;
+}
 
 .logo {
   font-size: 48px;
@@ -11,6 +16,8 @@ display: flex;
   color: tomato;
   background: white;
   padding: 4px 32px;
+  display: flex;
+  align-items: center;
 }
 
 ul {
