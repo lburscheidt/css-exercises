@@ -9,7 +9,11 @@ body {
 }
 
 li {
+  padding: 0;
+  margin: 0;
+  border: 0;
   list-style: none;
+  margin-bottom: 16px;
 }
 
 a {
@@ -53,6 +57,9 @@ a {
   min-width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  padding: 16px;
 }
 
 .cards {
