@@ -8,6 +8,16 @@ body {
   justify-content: space-between;
 }
 
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
 .header {
   height: 72px;
   background: darkmagenta;
