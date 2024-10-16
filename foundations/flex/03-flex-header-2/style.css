@@ -51,6 +51,8 @@ ul {
   list-style-type: none;
   display: flex;
   gap: 16px;
+  margin: 0;
+  padding: 0;
 }
 
 .left-header,
@@ -59,8 +61,4 @@ ul {
   align-items: center;
   justify-content: flex-start;
   gap: 16px;
-}
-
-.notifications {
-  margin-right: 16px;
 }
