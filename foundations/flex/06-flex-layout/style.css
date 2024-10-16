@@ -50,6 +50,14 @@ a {
   gap: 16px;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  align-self: center;
+}
+
 .footer {
   background-color: #eee;
 }
