@@ -3,6 +3,10 @@ body {
   font-family: sans-serif;
 }
 
+div {
+  margin-bottom: 8px;
+}
+
 .card {
   width: 400px;
   background: #fff;
@@ -27,5 +31,5 @@ body {
 button {
   background: white;
   border: 1px solid #eee;
-  padding: 8px 24px;
+  margin: 8px 24px;
 }
