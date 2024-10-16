@@ -2,11 +2,13 @@
   display: flex;
   font-family: monospace;
   background: papayawhip;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   padding: 16px;
 }
 
-.left-links {
+.left-links,
+.right-links {
   display: flex;
 }
 
@@ -24,6 +26,7 @@ ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
   display: flex;
+gap: 16px;
 }
 
 a {
