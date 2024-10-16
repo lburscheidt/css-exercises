@@ -19,6 +19,14 @@ img {
 
 .images {
   display: flex;
+  gap: 52px;
+}
+
+.image {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* do not edit this footer */
