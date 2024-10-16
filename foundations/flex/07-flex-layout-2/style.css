@@ -28,12 +28,27 @@ body {
   align-items: center;
 }
 
+.header,
+.footer {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.content {
+  display: flex;
+  flex-grow: 1;
+}
+
 .sidebar {
-  width: 300px;
+  min-width: 300px;
   background: royalblue;
   box-sizing: border-box;
 }
 
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
